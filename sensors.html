@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #A {
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            font-size: x-large;
+            color: aliceblue;
+            margin-bottom: 100px;
+        }
+
+        #B {
+            margin-left: 500px;
+            font-size: 60px;
+        }
+
+        #C {
+            font-size: 62px;
+            background-color: rgb(21, 158, 208);
+            height: 60px;
+            text-decoration: none;
+            color: rgb(3, 60, 109);
+        }
+
+        .blueprint {
+            text-align: center;
+            background-color: rgb(188, 221, 217);
+            height: 450px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 20px;
+            border: solid 2px black;
+        }
+
+        .heading {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .p {
+            font-size: medium;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .price {
+            margin: 0px;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            width: 88px;
+            height: 30px;
+            background-color: #007bff;
+            border-radius: 10px;
+            color: white;
+        }
+
+        #first {
+            background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQJINH239B-df3e_udT2zpS_bE6inCZee0Q3KTvClsZtJlwtQPeFx1Zpwt3ApKVEbI7AtcTGfH533z-VI2w-ElJaz7ghzjSRMASnAWOsAG0jwZqZ1jbBQYtv67K");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #second {
+            background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTW2lUU41_oxle_rz5e1Bwx5e6fa4ag-4_Ej_hVI2iydlXBez6gnT5J_ImSMixg0uVz7IwAq5jrZaTPShnVFx7t7QImPzxkcaGNDWp5VE35xBicGQpkiEZXSQ");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #third {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRb6_5W4yQ7_b8Iuk9JCQEPXgKkknrv-5erZz7oJx0d6me24EqvbGkxwxua2oW98Md5G9QXtX60-9KAZC6lfpEKjDGGheGm_I36hZQ_XUkH7YVMBUp-dB5Dbuk");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fourth {
+            background-image: url("https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTrurpoUdGfpm4s1Hn5HJHBtJB3YNnXR01LYqGnB5seB_JQC8UT-cbxNJlQLyF7QKAp0VdSZ1tZXLH7xN4VlTTal1i7CHgwP9iSpDVj7o3_vMwhM_Qpf7Cm1g");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fifth {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTh5hOnNdYkLgnU3ycGefefTC2lOq4n_8VAUgluR7IqBkziHEzBx0-YHGeoue2Cxzp8E_yhFRHq5RxqYXnEYU_LVu1D3Bg5c-TRwVfHq9WswRXbRToRi6_A");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #sixth {
+            background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQZ9PakRHPTkumKZNoo75gi6qCRse_U1TcTf54uuqoX3xR5v9-qcjhKzmVkRqOHoCuSMd8Yq4LjZTmm-sT5DpvL05TIkdqv3h_AG77NWp6R7obyWPBLSXv2HSA");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #footer {
+            margin-top: 100px;
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="A">
+            <a href="index.html" id="C">HOME</a> <a id="B">Sensors</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="main">
+
+            <div style="display:flex; justify-content: space-evenly;">
+                <div class="blueprint">
+                    <div id="first"></div>
+                    <h3 class="heading">Motion Sensor </h3>
+                    <p class="p">Detects motion to trigger lights, alarms, or cameras for security and automation.</p>
+                    <div class="price">₹200</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="second"></div>
+                    <h3 class="heading">Temperature Sensor</h3>
+                    <p class="p">Monitors temperature and humidity levels, perfect for climate control systems.</p>
+                    <div class="price">₹250</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="third"></div>
+                    <h3 class="heading">Gas/Smoke Sensor</h3>
+                    <p class="p">Senses gas leaks or smoke, helping to keep your home safe from hazards
+                    </p>
+                    <div class="price">₹300</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+            <div style="display:flex; justify-content: space-evenly; margin-top: 80px;">
+                <div class="blueprint">
+                    <div id="fourth"></div>
+                    <h3 class="heading">Light Sensor</h3>
+                    <p class="p">Measures ambient light to automate lighting based on brightness.</p>
+                    <div class="price">₹350</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="fifth"></div>
+                    <h3 class="heading">Magnetic Contact Sensor</h3>
+                    <p class="p">Detects door or window openings; ideal for home security setups.</p>
+                    <div class="price">₹299</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="sixth"></div>
+                    <h3 class="heading">Water Leak Sensor</h3>
+                    <p class="p">Alerts you to water leaks, protecting against damage and flooding.</p>
+                    <div class="price">₹499</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <h1>Thank You</h1>
+        </div>
+    </footer>
+</body>
+
+</html>

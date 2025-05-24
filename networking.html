@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #A {
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            font-size: x-large;
+            color: aliceblue;
+            margin-bottom: 100px;
+        }
+
+        #B {
+            margin-left: 400px;
+            font-size: 60px;
+        }
+
+        #C {
+            font-size: 62px;
+            background-color: rgb(21, 158, 208);
+            height: 60px;
+            text-decoration: none;
+            color: rgb(3, 60, 109);
+        }
+
+        .blueprint {
+            text-align: center;
+            background-color: rgb(188, 221, 217);
+            height: 450px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 20px;
+            border: solid 2px black;
+        }
+
+        .heading {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .p {
+            font-size: medium;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .price {
+            margin: 0px;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            width: 88px;
+            height: 30px;
+            background-color: #007bff;
+            border-radius: 10px;
+            color: white;
+        }
+
+        #first {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdWQNxQbg71YcONF3lxk8-hKajGuT2ZqDrKWn57AZDeMaxTTE_P7a_jAMxJ9xzscbAFt_V9YfuIHbwzZpFUg16oTwq_9WoNTQeSFS0TDHDprVT9v-_Vm5hEw");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #second {
+            background-image: url("https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQgDqEEOhvkWr6Ln57IgRUsbKvjcVDIClh8Tc0DE9oeXPqXUilqRqh95DwW4JnSTSZNPClYOaA86gp1rdNH5aiFew9wKDlavM3CedeVbrhHIFj4VUjEEcsq");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #third {
+            background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTFsySoJNpchLmo7HYrmzc1oAT_nJoDSS7_rGNslj8rZsVoI10AgXK87gzaAJ1AWUitdlClpK_Ob-AGWkCU5tzyC6cg4JLbdwlN6tTMK8pRAoJz_5JTfr2uZQ");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fourth {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQCijIvlQzkuyzNExTZXDB8A9TBmVNgjnJKzlNWgErxFA2_cs6ccB9bVXgFxlW6YshGTaF278BamMGr_1hmAXi8jQrlTKVIbL9Pn2ZUTmmWMJj2diihG7YE3A");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fifth {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR7vwFvzrs4LMcF8VxnfWYLeDxwqnJR2nHitiDxXX1GxmfVCT4CbBz5wKx_wIy_sucfe1wuYW1UG0qtgBsS5IsxLF007rhS6efyvd863CX0xgJVPx_YW4Q4Xw");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #sixth {
+            background-image: url("https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTnCaqrYlUrhmDfX6n20X98Auk-aTz4V3IQ33EiFmfwf23fJaWIU0X4KYf_H8_f4A8LnJcxINa8yMqUau8iheQq8n1n6FD_6kWmDr7ZhDMEhKXzVqkowdRWhQ");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #footer {
+            margin-top: 100px;
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="A">
+            <a href="index.html" id="C">HOME</a> <a id="B">Networking Devices</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="main">
+
+            <div style="display:flex; justify-content: space-evenly;">
+                <div class="blueprint">
+                    <div id="first"></div>
+                    <h3 class="heading">Wi-Fi Module	</h3>
+                    <p class="p">Affordable Wi-Fi module to connect your Arduino or IoT projects to the internet.</p>
+                    <div class="price">₹500</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="second"></div>
+                    <h3 class="heading">Ethernet Shield	</h3>
+                    <p class="p">Allows Arduino to connect to the internet via a wired Ethernet connection.</p>
+                    <div class="price">₹1,000</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="third"></div>
+                    <h3 class="heading">Bluetooth Module</h3>
+                    <p class="p">Enables Bluetooth connectivity for wireless communication between devices.
+                    </p>
+                    <div class="price">₹400</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+            <div style="display:flex; justify-content: space-evenly; margin-top: 80px;">
+                <div class="blueprint">
+                    <div id="fourth"></div>
+                    <h3 class="heading">Zigbee Module </h3>
+                    <p class="p">Wireless module for creating low-power, short-range communication networks.</p>
+                    <div class="price">₹1,200</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="fifth"></div>
+                    <h3 class="heading">Cellular IoT Module </h3>
+                    <p class="p">Connects IoT devices to the internet via cellular networks for remote use.</p>
+                    <div class="price">₹1,500</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="sixth"></div>
+                    <h3 class="heading">Wi-Fi Repeater/Extender</h3>
+                    <p class="p">Boosts Wi-Fi signal range, improving connectivity in large or multi-story buildings.</p>
+                    <div class="price">₹2,499</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <h1>Thank You</h1>
+        </div>
+    </footer>
+</body>
+
+</html>

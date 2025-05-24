@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #A {
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            font-size: x-large;
+            color: aliceblue;
+            margin-bottom: 100px;
+        }
+
+        #B {
+            margin-left: 450px;
+            font-size: 60px;
+        }
+
+        #C {
+            font-size: 62px;
+            background-color: rgb(21, 158, 208);
+            height: 60px;
+            text-decoration: none;
+            color: rgb(3, 60, 109);
+        }
+
+        .blueprint {
+            text-align: center;
+            background-color: rgb(188, 221, 217);
+            height: 450px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 20px;
+            border: solid 2px black;
+        }
+
+        .heading {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .p {
+            font-size: medium;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .price {
+            margin: 0px;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            width: 88px;
+            height: 30px;
+            background-color: #007bff;
+            border-radius: 10px;
+            color: white;
+        }
+
+        #first {
+            background-image: url("https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQn5K5MbN6d6jHnQSJukDTvKcHrMcy1BfZq1yE5oZUtcdNBbKux0a-5u0SVQei_vt5KhmYhJoyk0SJgJubG-yYH6GcmHMILT01D29A77FHXIuGGbJ9hzB5FCQQ");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #second {
+            background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTOrvjSa92-KXRmPsJ0HXjhXGotFoyH9eaEQce0brr-a5shdDtFlm8s-vO4hXYAprLnXmtddI4eO44QEEQXIhaSFkYY5W6Ks8TJxmfcRi7SshDHyZEQ7WtlDw");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #third {
+            background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQBGOIGLmNjqzY2dzA067pGAsIi_WtDunrq9dmIoG9YKWdPecUgFzDtbltF6vvXDBgtXWry28qVd_HIp7HQQlsd95Nu4xwqRHcr2Fdw70YI4Y9fKZjJGI0Q");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fourth {
+            background-image: url("https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgN1IjBfKLyoPgyJgfPZNcyevDDy8-ugfTRIoYHt7xMAJXX9ljwkP3On-xPyslTGNAsNPTHws0Ui39fv2fTpW6rSgFjqyv2vG8m1TI-lmPb39Y1NXphzF8");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fifth {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSwuyLY-7iFdm8O5FJASfXwxYES6B-zq7SuGuyatO_QH4yHkgsFF5ErDwghDpjOXb2GpGlHg8EwJGusEfd-ugARAp9ET_7coe7h0zx4LtmCzST94LcYk2wsmw");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #sixth {
+            background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS3dy3MRkUAd_jftv5luCBOeWGak7fiXt6SC26OiPnYW8qBf9P3kv2_OHsNyd30ZPmEsC-BSDlVkVXHKhtETbcjy3LGMhk9udO2olUx4dBrJcbVwU2D5LsqiGs");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #footer {
+            margin-top: 100px;
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="A">
+            <a href="index.html" id="C">HOME</a> <a id="B">Automotives</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="main">
+
+            <div style="display:flex; justify-content: space-evenly;">
+                <div class="blueprint">
+                    <div id="first"></div>
+                    <h3 class="heading">GPS Tracker</h3>
+                    <p class="p">	Tracks vehicle location in real-time for safety and monitoring.</p>
+                    <div class="price">₹1,500</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="second"></div>
+                    <h3 class="heading">OBD-II Scanner</h3>
+                    <p class="p">VReads car diagnostics, fault codes, and live engine data.</p>
+                    <div class="price">₹599</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="third"></div>
+                    <h3 class="heading">TPMS Sensor</h3>
+                    <p class="p">Monitors tire pressure and alerts you of low pressure or leaks.
+                    </p>
+                    <div class="price">₹2,500</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+            <div style="display:flex; justify-content: space-evenly; margin-top: 80px;">
+                <div class="blueprint">
+                    <div id="fourth"></div>
+                    <h3 class="heading">Dash Cam</h3>
+                    <p class="p">Records driving footage for safety, evidence, and peace of mind.p>
+                    <div class="price">₹3,499</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="fifth"></div>
+                    <h3 class="heading">Reverse Parking Sensor</h3>
+                    <p class="p">	Detects obstacles when reversing to assist with parking.</p>
+                    <div class="price">₹1,000</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="sixth"></div>
+                    <h3 class="heading">Smart Car Charger</h3>
+                    <p class="p">Charges devices with added features like voltage display or Bluetooth.</p>
+                    <div class="price">₹8,999</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <h1>Thank You</h1>
+        </div>
+    </footer>
+</body>
+
+</html>

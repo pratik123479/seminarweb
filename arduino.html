@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #A {
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            font-size: x-large;
+            color: aliceblue;
+            margin-bottom: 100px;
+        }
+
+        #B {
+            margin-left: 450px;
+            font-size: 60px;
+        }
+
+        #C {
+            font-size: 62px;
+            background-color: rgb(21, 158, 208);
+            height: 60px;
+            text-decoration: none;
+            color: rgb(3, 60, 109);
+        }
+
+        .blueprint {
+            text-align: center;
+            background-color: rgb(188, 221, 217);
+            height: 450px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 20px;
+            border: solid 2px black;
+        }
+
+        .heading {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .p {
+            font-size: medium;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .price {
+            margin: 0px;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            width: 88px;
+            height: 30px;
+            background-color: #007bff;
+            border-radius: 10px;
+            color: white;
+        }
+
+        #first {
+            background-image: url("https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSiMfqMbnNsb5Q4t5ZdVyv5GWDwVSIy3xdi9Hubo7nzw2-iGTT83p4lQtTNbIbfATfr6MAKyTSxvt3geIomtlfn9ZR7v_5WvS6lEYvAwC73KM7kf_jh56Mt");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #second {
+            background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQXZa8acyymj5iyJy9TmenmF5zHDvlH8lBLMW7wV6dU1RMhL9uLpmUjSrglRAd2AYg8PBUoJsLvQOjk_Mn2grXLxBp0meF2OjxtEfr0zjHJAy3iw-YpYq8K");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #third {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRaI64FoQrvnmmqIefthm0koDtufEuowzjIowrRaLbnZ7YHGO5kR5BK7TwbGxFUkRC4z1R_QBFMqTC0VsDfTCurbltwIOJFLeVaWT9qjXpHsqRw0_vDEL1Ziw");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fourth {
+            background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTN8GjqL8TLjJa9LpHYXbB_aXRjtQYwJVoZS9mD6cditE0hmxLRIxzgcczUmaB6fi-iY4RJ5N33Q3xCNYLtuqWG9tUpNNOGCIVecx8sDy98BlKgpPns4Pmn");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #fifth {
+            background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQch3vM_B6VK8E9GKAX_cepeTlIT-f9MaEgJisaYJdxfklF3UxSnTkU5gWTCVwCBJb0rTVGC6DsDHIrry0l3Vg8MPQugQ2j4Q");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #sixth {
+            background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQtrOq52DJ6eZEpuaVv9PysurkD1eF-vMINExOfJnmInstO791F89mzC3Yjv2asGltOrqZxZdcnqV4tvjaJ9slDXx6dY9ONjVNvj-PWZcjAyI01272rD8qLLw");
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 280px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        #footer {
+            margin-top: 100px;
+            height: 70px;
+            background-color: rgb(43, 3, 81);
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="A">
+            <a href="index.html" id="C">HOME</a> <a id="B">Aurdino</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="main">
+
+            <div style="display:flex; justify-content: space-evenly;">
+                <div class="blueprint">
+                    <div id="first"></div>
+                    <h3 class="heading">Arduino Uno</h3>
+                    <p class="p">The most popular microcontroller board.</p>
+                    <div class="price">₹400</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="second"></div>
+                    <h3 class="heading">Arduino Nano</h3>
+                    <p class="p">Compact version of the Uno, ideal for small projects.</p>
+                    <div class="price">₹499</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="third"></div>
+                    <h3 class="heading">Arduino Mega</h3>
+                    <p class="p">	A larger board with more pins for complex projects.
+                    </p>
+                    <div class="price">₹700</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+            <div style="display:flex; justify-content: space-evenly; margin-top: 80px;">
+                <div class="blueprint">
+                    <div id="fourth"></div>
+                    <h3 class="heading">Sensor Kit	</h3>
+                    <p class="p">Bundle of basic sensors (light, temp, motion, etc.) for Arduino use.</p>
+                    <div class="price">₹1000</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="fifth"></div>
+                    <h3 class="heading">Motor Driver Module </h3>
+                    <p class="p">Controls DC motors and stepper motors in robotics projects.</p>
+                    <div class="price">₹500</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+
+                <div class="blueprint">
+                    <div id="sixth"></div>
+                    <h3 class="heading">Jumper Wires + Breadboard	</h3>
+                    <p class="p">Essential for prototyping circuits and testing components.</p>
+                    <div class="price">₹250</div>
+                    <a href="buypage.html"><button class="button">Buy Now</button></a>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <h1>Thank You</h1>
+        </div>
+    </footer>
+</body>
+
+</html>
